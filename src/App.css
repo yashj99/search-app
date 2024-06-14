@@ -1,0 +1,39 @@
+
+.main-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input.search-input{
+  padding: 1rem;
+  margin:1rem;
+  width:30vw;
+}
+
+.card {
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin: 0.5rem;
+  width:30vw;
+  &:hover{
+    cursor:pointer
+  }
+}
+
+.highlighted {
+  background-color: #f0f0f0;
+}
+
+.empty {
+  color: #888;
+}
+
+
+.search-result-container{
+  height:70vh;
+  overflow-y:auto;
+  scrollbar-width: thin;
+  scrollbar-color: gray lightgray;
+}
